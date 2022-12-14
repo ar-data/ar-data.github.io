@@ -1,0 +1,589 @@
+{
+    "gameTypes": [
+        {
+            "name": "MATCHED PLAY: Strike Force (Nephilim)",
+            "commandPoints": 6,
+            "points": 2000
+        },
+        {
+            "name": "MATCHED PLAY: Incursion (Nephilim)",
+            "commandPoints": 3,
+            "points": 1000
+        }
+    ],
+    "roleTypes": [
+        "NFO",
+        "HQ",
+        "TROOPS",
+        "ELITES",
+        "FAST ATTACK",
+        "HEAVY SUPPORT",
+        "FLYER",
+        "TRANSPORT",
+        "FORTIFICATION",
+        "LORD OF WAR"
+    ],
+    "detachmentTypes": [
+        {
+            "name": "PATROL",
+            "cp": 2,
+            "roles": [
+                {
+                    "name": "NFO",
+                    "min": 0,
+                    "max": 99
+                },
+                {
+                    "name": "HQ",
+                    "min": 1,
+                    "max": 2
+                },
+                {
+                    "name": "TROOPS",
+                    "min": 1,
+                    "max": 3
+                },
+                {
+                    "name": "ELITES",
+                    "min": 0,
+                    "max": 2
+                },
+                {
+                    "name": "FAST ATTACK",
+                    "min": 0,
+                    "max": 2
+                },
+                {
+                    "name": "HEAVY SUPPORT",
+                    "min": 0,
+                    "max": 2
+                },
+                {
+                    "name": "FLYER",
+                    "min": 0,
+                    "max": 2
+                },
+                {
+                    "name": "TRANSPORT",
+                    "min": 0,
+                    "max": 99
+                }
+            ]
+        },
+        {
+            "name": "BATALLION",
+            "cp": 3,
+            "roles": [
+                {
+                    "name": "NFO",
+                    "min": 0,
+                    "max": 99
+                },
+                {
+                    "name": "HQ",
+                    "min": 2,
+                    "max": 3
+                },
+                {
+                    "name": "TROOPS",
+                    "min": 3,
+                    "max": 6
+                },
+                {
+                    "name": "ELITES",
+                    "min": 0,
+                    "max": 6
+                },
+                {
+                    "name": "FAST ATTACK",
+                    "min": 0,
+                    "max": 3
+                },
+                {
+                    "name": "HEAVY SUPPORT",
+                    "min": 0,
+                    "max": 3
+                },
+                {
+                    "name": "FLYER",
+                    "min": 0,
+                    "max": 2
+                },
+                {
+                    "name": "TRANSPORT",
+                    "min": 0,
+                    "max": 99
+                }
+            ]
+        },
+        {
+            "name": "BRIGADE",
+            "cp": 4,
+            "roles": [
+                {
+                    "name": "NFO",
+                    "min": 0,
+                    "max": 99
+                },
+                {
+                    "name": "HQ",
+                    "min": 3,
+                    "max": 5
+                },
+                {
+                    "name": "TROOPS",
+                    "min": 6,
+                    "max": 12
+                },
+                {
+                    "name": "ELITES",
+                    "min": 3,
+                    "max": 8
+                },
+                {
+                    "name": "FAST ATTACK",
+                    "min": 3,
+                    "max": 5
+                },
+                {
+                    "name": "HEAVY SUPPORT",
+                    "min": 3,
+                    "max": 5
+                },
+                {
+                    "name": "FLYER",
+                    "min": 0,
+                    "max": 2
+                },
+                {
+                    "name": "TRANSPORT",
+                    "min": 0,
+                    "max": 99
+                }
+            ]
+        },
+        {
+            "name": "VANGUARD",
+            "cp": 3,
+            "roles": [
+                {
+                    "name": "NFO",
+                    "min": 0,
+                    "max": 99
+                },
+                {
+                    "name": "HQ",
+                    "min": 1,
+                    "max": 2
+                },
+                {
+                    "name": "TROOPS",
+                    "min": 0,
+                    "max": 3
+                },
+                {
+                    "name": "ELITES",
+                    "min": 3,
+                    "max": 6
+                },
+                {
+                    "name": "FAST ATTACK",
+                    "min": 0,
+                    "max": 2
+                },
+                {
+                    "name": "HEAVY SUPPORT",
+                    "min": 0,
+                    "max": 2
+                },
+                {
+                    "name": "FLYER",
+                    "min": 0,
+                    "max": 2
+                },
+                {
+                    "name": "TRANSPORT",
+                    "min": 0,
+                    "max": 99
+                }
+            ]
+        },
+        {
+            "name": "SPEARHEAD",
+            "cp": 3,
+            "roles": [
+                {
+                    "name": "NFO",
+                    "min": 0,
+                    "max": 99
+                },
+                {
+                    "name": "HQ",
+                    "min": 1,
+                    "max": 2
+                },
+                {
+                    "name": "TROOPS",
+                    "min": 0,
+                    "max": 3
+                },
+                {
+                    "name": "ELITES",
+                    "min": 0,
+                    "max": 2
+                },
+                {
+                    "name": "FAST ATTACK",
+                    "min": 0,
+                    "max": 2
+                },
+                {
+                    "name": "HEAVY SUPPORT",
+                    "min": 3,
+                    "max": 6
+                },
+                {
+                    "name": "FLYER",
+                    "min": 0,
+                    "max": 2
+                },
+                {
+                    "name": "TRANSPORT",
+                    "min": 0,
+                    "max": 99
+                }
+            ]
+        },
+        {
+            "name": "OUTRIDER",
+            "cp": 3,
+            "roles": [
+                {
+                    "name": "NFO",
+                    "min": 0,
+                    "max": 99
+                },
+                {
+                    "name": "HQ",
+                    "min": 1,
+                    "max": 2
+                },
+                {
+                    "name": "TROOPS",
+                    "min": 0,
+                    "max": 3
+                },
+                {
+                    "name": "ELITES",
+                    "min": 0,
+                    "max": 2
+                },
+                {
+                    "name": "FAST ATTACK",
+                    "min": 3,
+                    "max": 6
+                },
+                {
+                    "name": "HEAVY SUPPORT",
+                    "min": 0,
+                    "max": 2
+                },
+                {
+                    "name": "FLYER",
+                    "min": 0,
+                    "max": 2
+                },
+                {
+                    "name": "TRANSPORT",
+                    "min": 0,
+                    "max": 99
+                }
+            ]
+        },
+        {
+            "name": "SUPREME COMMAND",
+            "cp": 0,
+            "roles": [
+                {
+                    "name": "NFO",
+                    "min": 0,
+                    "max": 99
+                },
+                {
+                    "name": "HQ",
+                    "min": 0,
+                    "max": 1
+                },
+                {
+                    "name": "LORD OF WAR",
+                    "min": 0,
+                    "max": 1
+                }
+            ]
+        },
+        {
+            "name": "SUPER-HEAVY",
+            "cp": 6,
+            "roles": [
+                {
+                    "name": "LORD OF WAR",
+                    "min": 3,
+                    "max": 5
+                }
+            ]
+        },
+        {
+            "name": "SUPER-HEAVY AUXILLARY",
+            "cp": 3,
+            "roles": [
+                {
+                    "name": "LORD OF WAR",
+                    "min": 1,
+                    "max": 1
+                }
+            ]
+        },
+        {
+            "name": "FORTIFICATION NETWORK",
+            "cp": 1,
+            "roles": [
+                {
+                    "name": "FORTIFICATION",
+                    "min": 1,
+                    "max": 3
+                }
+            ]
+        },
+        {
+            "name": "AUXILLARY SUPPORT",
+            "cp": 2,
+            "roles": [
+                {
+                    "name": "NFO",
+                    "min": 0,
+                    "max": 99
+                },
+                {
+                    "name": "HQ",
+                    "min": 0,
+                    "max": 1
+                },
+                {
+                    "name": "TROOPS",
+                    "min": 0,
+                    "max": 1
+                },
+                {
+                    "name": "ELITES",
+                    "min": 0,
+                    "max": 1
+                },
+                {
+                    "name": "FAST ATTACK",
+                    "min": 0,
+                    "max": 1
+                },
+                {
+                    "name": "HEAVY SUPPORT",
+                    "min": 0,
+                    "max": 1
+                },
+                {
+                    "name": "FLYER",
+                    "min": 0,
+                    "max": 1
+                },
+                {
+                    "name": "TRANSPORT",
+                    "min": 0,
+                    "max": 1
+                }
+            ]
+        }
+    ],
+    "armies": [
+        {
+            "factionName": "LEGIONES DAEMONICA",
+            "superFactionName": "CHAOS",
+            "fileName": "legionesDaemonica.json",
+            "codex": true
+        },
+        {
+            "factionName": "CHAOS KNIGHTS",
+            "superFactionName": "CHAOS",
+            "fileName": "questorTraitoris.json",
+            "codex": true
+        },
+        {
+            "factionName": "TRAITORIS ASTARTES",
+            "superFactionName": "CHAOS",
+            "fileName": "traitorisAstartes.json",
+            "codex": true
+        }
+    ],
+    "futureArmies": [
+
+        {
+            "factionName": "THOUSAND SONS",
+            "superFactionName": "CHAOS",
+            "fileName": "thousandSons.json",
+            "codex": true
+        },
+        {
+            "factionName": "DEATH GUARD",
+            "superFactionName": "CHAOS",
+            "fileName": "deathGuard.json",
+            "codex": true
+        },
+        {
+            "factionName": "WORLD EATERS",
+            "superFactionName": "CHAOS",
+            "fileName": "worldEaters.json",
+            "codex": true
+        },
+        {
+            "factionName": "IMPERIAL KNIGHTS",
+            "superFactionName": "IMPERIUM",
+            "fileName": "imperialKnights.json",
+            "codex": true
+        },
+        {
+            "factionName": "ADEPTUS ASTARTES",
+            "superFactionName": "IMPERIUM",
+            "fileName": "adeptusAstartes.json",
+            "codex": true
+        },
+        {
+            "factionName": "ADEPTA SORORITAS",
+            "superFactionName": "IMPERIUM",
+            "fileName": "adeptaSororitas.json",
+            "codex": true
+        },
+        {
+            "factionName": "ADEPTUS MECHANICUS",
+            "superFactionName": "IMPERIUM",
+            "fileName": "adeptusMechanicus.json",
+            "codex": true
+        },
+        {
+            "factionName": "GREY KNIGHTS",
+            "superFactionName": "IMPERIUM",
+            "fileName": "greyKnights.json",
+            "codex": true
+        },
+        {
+            "factionName": "ADEPTUS CUSTODES",
+            "superFactionName": "IMPERIUM",
+            "fileName": "adeptusCustodes.json",
+            "codex": true
+        },
+        {
+            "factionName": "ASTRA MILITARUM",
+            "superFactionName": "IMPERIUM",
+            "fileName": "astraMilitarum.json",
+            "codex": true
+        },
+        {
+            "factionName": "INQUISITION",
+            "superFactionName": "IMPERIUM",
+            "fileName": "inquisition.json",
+            "codex": true
+        },
+        {
+            "factionName": "Officio Assassinorium",
+            "superFactionName": "IMPERIUM",
+            "fileName": "officioAssassinorium.json",
+            "codex": true
+        },
+        {
+            "factionName": "CRAFTWORLDS",
+            "superFactionName": "AELDARI",
+            "fileName": "craftworlds.json",
+            "codex": true
+        },
+        {
+            "factionName": "HARLEQUINS",
+            "superFactionName": "AELDARI",
+            "fileName": "harlequins.json",
+            "codex": true
+        },
+        {
+            "factionName": "DRUKHARI",
+            "superFactionName": "AELDARI",
+            "fileName": "drukhari.json",
+            "codex": true
+        },
+        {
+            "factionName": "LEAGUES OF VOTANN",
+            "superFactionName": "XENOS",
+            "fileName": "leaguesOfVotann.json",
+            "codex": true
+        },
+        {
+            "factionName": "NECRONS",
+            "superFactionName": "XENOS",
+            "fileName": "necrons.json",
+            "codex": true
+        },
+        {
+            "factionName": "ORKS",
+            "superFactionName": "XENOS",
+            "fileName": "orks.json",
+            "codex": true
+        },
+        {
+            "factionName": "TYRANIDS",
+            "superFactionName": "XENOS",
+            "fileName": "tyranids.json",
+            "codex": true
+        },
+        {
+            "factionName": "TAU",
+            "superFactionName": "XENOS",
+            "fileName": "tau.json",
+            "codex": true
+        }
+    ],
+    "futureKeywords": [
+        {
+            "factionName": "CHAOS",
+            "superFactionName": "CHAOS",
+            "codex": false
+        },
+        {
+            "factionName": "CHAOS UNDIVIDED",
+            "superFactionName": "CHAOS",
+            "codex": false
+        },
+        {
+            "factionName": "KHORNE",
+            "superFactionName": "CHAOS",
+            "codex": false
+        },
+        {
+            "factionName": "TZEENTCH",
+            "superFactionName": "CHAOS",
+            "codex": false
+        },
+        {
+            "factionName": "NURGLE",
+            "superFactionName": "CHAOS",
+            "codex": false
+        },
+        {
+            "factionName": "SLAANESH",
+            "superFactionName": "CHAOS",
+            "codex": false
+        },
+        {
+            "factionName": "HERETIC ASTARTES",
+            "superFactionName": "HERETIC ASTARTES",
+            "codex": false
+        },
+        {
+            "factionName": "IMPERIUM",
+            "superFactionName": "IMPERIUM",
+            "codex": false
+        }
+    ]
+}
