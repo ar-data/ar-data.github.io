@@ -14,105 +14,143 @@
             "rule": "All RUBRIC MARINES, SCARAB OCCULT TERMINATORS and BRAY units in THOUSAND SONS Detachments gain the Objective Secured ability"
         }
     ],
+    "subFactionTerm": "<CULT>",
     "subFactions": [
         {
             "subFactionName": "Cult of Mutation",
-            "psychicPowers": [
-                {
-                    "name": "Warp Reality",
-                    "rule": "Malediction: Warp Reality has a warp charge value of 6. If manifested, select one terrain feature within 24\" of and visible to this PSYKER, then select one enemy unit within 3\" of that terrain feature. Until the start of your next Psychic phase, halve that unit's Move characteristic and subtract 1 from Advance rolls and charge rolls made for it"
-                }
-            ],
-            "traits": [
-                {
-                    "name": "Touch of Vicissitude",
-                    "rule": "Each time a melee attack is made by this WARLORD, an unmodified hit roll of 6 inflicts 1 mortal wound on the target in addition to any other damage"
-                }
-            ],
-            "relics": [
-                {
-                    "name": "Exalted Mutation",
-                    "rule": "SORCERER model only. Add 1 to the bearer's Strength, Toughness and Attacks characteristics"
-                }
-            ]
+            "factionKeywordDeductions": ["<CULT>"],
+            "factionKeywordAdditions": ["CULT OF MUTATION"]
         },
         {
             "subFactionName": "Cult of Prophecy",
-            "psychicPowers": [
-                {
-                    "name": "Divine the Future",
-                    "rule": "Blessing: Divine the Future has a warp charge of 6. If manifested, roll one D6 and set it to one side. Until the start of your next Psychic phase, you can use that dice roll to replace a single dice rolled for a hit roll, wound roll, Advance roll, charge roll, Psychic test, Deny the Witch test or Morale test for a CULT OF PROPHECY unit from your army"
-                }
-            ],
-            "traits": [
-                {
-                    "name": "Guided by the Whispers",
-                    "rule": "Once per turn, when this WARLORD is selected as the target of a charge, before the charge roll is made and after firing any Overwatch, it can make a normal Move up to 6\""
-                }
-            ],
-            "relics": [
-                {
-                    "name": "Oraculae Brazier",
-                    "rule": "In your Command phase, select one CULT OF PROPHECY CORE or CULT OF PROPHECY CHARACTER unit within 6\" of the bearer. Until the start of your next Command phase, each time that unit is selected to shoot or fight, you can re-roll one hit roll, one wound roll, and one damage roll when resolving that unit's attacks"
-                }
-            ]
+            "factionKeywordDeductions": ["<CULT>"],
+            "factionKeywordAdditions": ["CULT OF PROPHECY"]
         },
         {
             "subFactionName": "Cult of Time",
-            "psychicPowers": [
-                {
-                    "name": "Time Flux",
-                    "rule": "Blessing: Time Flux has a warp charge of 6. If manifested, select one friendly CULT OF TIME INFANTRY unit within 6\" of this PSYKER. You can return one destroyed model from that unit to the battlefield with all of its wounds remaining, placing it in unit coherency"
-                }
-            ],
-            "traits": [
-                {
-                    "name": "Immaterial Echo",
-                    "rule": "In your Psychic phase, if this WARLORD manifests a psychic power with a Psychic test result of 9+, this WARLORD can attempt to manifest one additional psychic power that phase. When attempting to manifest that additional psychic power, if the Psychic test is passed, it cannot be denied. Only one additional psychic power can be manifested as a result of this Warlord Trait per phase"
-                }
-            ],
-            "relics": [
-                {
-                    "name": "Hourglass of Manat",
-                    "rule": "The first time the bearer is destroyed, keep it to one side; at the end of the current phase, set the bearer back up again, as close as possible to its previous position and more than 1\" away from any enemy models, with D3 wounds remaining"
-                }
-            ]
+            "factionKeywordDeductions": ["<CULT>"],
+            "factionKeywordAdditions": ["CULT OF TIME"]
         },
         {
             "subFactionName": "Cult of Scheming",
-            "psychicPowers": [
-                {
-                    "name": "Seeded Strategy",
-                    "rule": "Blessing: Seeded Strategy has a warp charge of 6. If manifes..."
-                }
-            ],
-            "traits": [
-                {
-                    "name": "Grand Schemer (Aura)",
-                    "rule": "While they are within 3\" of this WARLORD, friendly CULT OF..."
-                }
-            ],
-            "relics": [
-                {
-                    "name": "Cha'qi'thl's Theorem",
-                    "rule": "Once per battle, in any phase, if the bearer is on the battle..."
-                }
-            ]
+            "factionKeywordDeductions": ["<CULT>"],
+            "factionKeywordAdditions": ["CULT OF SCHEMING"]
+        },
+        {
+            "subFactionName": "Cult of Magic",
+            "factionKeywordDeductions": ["<CULT>"],
+            "factionKeywordAdditions": ["CULT OF MAGIC"]
+        },
+        {
+            "subFactionName": "Cult of Knowledge",
+            "factionKeywordDeductions": ["<CULT>"],
+            "factionKeywordAdditions": ["CULT OF KNOWLEDGE"]
+        },
+        {
+            "subFactionName": "Cult of Change",
+            "factionKeywordDeductions": ["<CULT>"],
+            "factionKeywordAdditions": ["CULT OF CHANGE"]
+        },
+        {
+            "subFactionName": "Cult of Duplicity",
+            "factionKeywordDeductions": ["<CULT>"],
+            "factionKeywordAdditions": ["CULT OF DUPLICITY"]
+        },
+        {
+            "subFactionName": "Cult of Manipulation",
+            "factionKeywordDeductions": ["<CULT>"],
+            "factionKeywordAdditions": ["CULT OF MANIPULATION"]
         }
-    ],
-    "armyOfRenown": [
     ],
     "traits": [
         {
             "id": 1,
             "name": "Arrogance of Aeons",
-            "rule": "You can re-roll Deny the Witch tests taken...",
+            "rule": "- You can re-roll Deny the Witch tests taken for this WARLORD.\n - If your army is a Cabal of Sorcerers, this WARLORD can benefit from one additional Cabbalistic Ritual in each of your Psychic phases.",
             "cp": 1
         },
         {
             "id": 2,
             "name": "Seeker After Shadows",
-            "rule": "Each time this WARLORD attempts to perform a Psychic Action...",
+            "rule": " - Each time this WARLORD attempts to perform a Psychic action, roll one additional D6 and discard one D6 when taking that Psychic test.\n - If your army is a Cabal of Sorcerers, each time you generate Cabal points, if this WARLORD is on the battlefield you generate 1 additional Cabal point.",
+            "cp": 1
+        },
+        {
+            "id": 3,
+            "name": "Undying Form",
+            "rule": "Each time an attack is allocated to this WARLORD, subtract 1 from the Damage characteristic of that attack (to a minimum of 1).",
+            "cp": 1
+        },
+        {
+            "id": 4,
+            "name": "Lord of Forbidden Lore",
+            "rule": "Your WARLORD knows one additional psychic power. If your WARLORD is MAGNUS THE RED, it knows all the psychic powers from the disciplines it has access to.",
+            "cp": 1
+        },
+        {
+            "id": 5,
+            "name": "Otherworldly Prescience",
+            "rule": "Once per battle, before making a saving throw for this WARLORD, empyric entities can grant him visions of fate. If they do, until the end of the turn, this WARLORD has a 3+ invulnerable save.",
+            "cp": 1
+        },
+        {
+            "id": 6,
+            "name": "Aetherstride",
+            "rule": " - Add 3\" to the Move characteristic of this WARLORD.\n - This WARLORD is eligible to declare a charge during the same turn it Fell Back.\n - Each time this WARLORD makes a Normal Move, a charge move, an Advance or Falls Back, it moves as though it can FLY.",
+            "cp": 1
+        },
+        {
+            "id": 7,
+            "name": "Touch of Vicissitude",
+            "rule": "",
+            "cp": 1
+        },
+        {
+            "id": 7,
+            "name": "Guided by the Whispers",
+            "rule": "",
+            "cp": 1
+        },
+        {
+            "id": 7,
+            "name": "Aetherstride",
+            "rule": "",
+            "cp": 1
+        },
+        {
+            "id": 7,
+            "name": "Aetherstride",
+            "rule": "",
+            "cp": 1
+        },
+        {
+            "id": 7,
+            "name": "Aetherstride",
+            "rule": "",
+            "cp": 1
+        },
+        {
+            "id": 7,
+            "name": "Aetherstride",
+            "rule": "",
+            "cp": 1
+        },
+        {
+            "id": 7,
+            "name": "Aetherstride",
+            "rule": "",
+            "cp": 1
+        },
+        {
+            "id": 7,
+            "name": "Aetherstride",
+            "rule": "",
+            "cp": 1
+        },
+        {
+            "id": 7,
+            "name": "Aetherstride",
+            "rule": "",
             "cp": 1
         }
     ],
